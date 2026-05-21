@@ -1,0 +1,55 @@
+package com.bean;
+
+import java.io.Serializable;
+
+public class Student implements Serializable {
+	// Property
+	private int id;
+	private String name;
+	private double marks;
+
+	public Student() {
+		System.out.println("Default Constructor");
+	}
+
+	public Student(int id, String name, double marks) {
+		System.out.println("Parameterized Constructor");
+		this.id = id;
+		this.name = name;
+		this.marks = marks;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		System.out.println("SET ID ");
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		System.out.println("SET NAME ");
+		this.name = name;
+	}
+
+	public double getMarks() {
+		return marks;
+	}
+
+	public void setMarks(double marks) {
+		System.out.println("SET Marks ");
+		this.marks = marks;
+	}
+
+	@Override
+	public String toString() {
+		String.format("ID   %5d  NAME  %10s  MARKS  %3.2f ", null)
+		return "Student [id=" + id + ", name=" + name + ", marks=" + marks + "]";
+	}
+
+}
