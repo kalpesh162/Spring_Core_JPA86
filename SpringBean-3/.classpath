@@ -7,8 +7,7 @@
 	<classpathentry kind="lib" path="F:/Work/MyLib/Spring-Jar/spring-framework-5.2.9.RELEASE/libs/spring-core-5.2.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="F:/Work/MyLib/Spring-Jar/spring-framework-5.2.9.RELEASE/libs/spring-expression-5.2.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="F:/Work/MyLib/ApcheCommonLogging/commons-logging-1.2/commons-logging-1.2.jar"/>
-	<classpathentry kind="lib" path="F:/Work/MyLib/Spring-Jar/spring-framework-5.2.9.RELEASE/libs/spring-aop-5.2.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="F:/Work/MyLib/Spring-Jar/spring-framework-5.2.9.RELEASE/libs/spring-aspects-5.2.9.RELEASE.jar"/>
-	<classpathentry kind="lib" path="F:/Work/MyLib/AspectJ/aspectjrt-1.6.8.jar"/>
+	<classpathentry kind="lib" path="F:/Work/MyLib/Spring-Jar/spring-framework-5.2.9.RELEASE/libs/spring-aop-5.2.9.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

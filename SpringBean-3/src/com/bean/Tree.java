@@ -3,9 +3,6 @@ package com.bean;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-import org.springframework.beans.factory.DisposableBean;
-import org.springframework.beans.factory.InitializingBean;
-
 public class Tree {
 	private int ht;
 	private String name;
