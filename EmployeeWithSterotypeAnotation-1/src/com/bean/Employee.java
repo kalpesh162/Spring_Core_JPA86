@@ -3,9 +3,13 @@ package com.bean;
 import java.io.Serializable;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
+//@Component("emp")
 @Component
+//@Scope("singleton")
+@Scope("prototype")
 public class Employee implements Serializable {
 	@Value("11")
 	private int id;
