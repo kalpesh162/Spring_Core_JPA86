@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean id="student" class="com.bean.Student"> <constructor-arg name="address" 
+		ref="address" index="0"></constructor-arg> <property name="id" value="11" 
+		/> <property name="name" value="Sachin" /> <property name="marks" value="55.55" 
+		/> </bean> <bean id="address" class="com.bean.Address"> <property name="landMark" 
+		value="FC ROAD"></property> <property name="city" value="PUNE"></property> 
+		<property name="pincode" value="411020"></property> </bean> -->
+
+	<!-- <bean id="student" class="com.bean.Student"> <constructor-arg name="id" 
+		value="11" index="0"></constructor-arg> <constructor-arg name="name" value="Ram" 
+		index="1"></constructor-arg> <constructor-arg name="marks" value="67.76" 
+		index="2"></constructor-arg> <constructor-arg name="address" ref="address" 
+		index="3"></constructor-arg> </bean> <bean id="address" class="com.bean.Address"> 
+		<property name="landMark" value="FC ROAD"></property> <property name="city" 
+		value="PUNE"></property> <property name="pincode" value="411020"></property> 
+		</bean> -->
+
+	<bean id="student" class="com.bean.Student" autowire="byType">
+		<property name="id" value="11">
+		</property>
+		<property name="name" value="Raju"></property>
+		<property name="marks" value="78.45"></property>
+
+	</bean>
+
+
+	<bean id="address1" class="com.bean.Address">
+		<property name="landMark" value="FC ROAD"></property>
+		<property name="city" value="PUNE"></property>
+		<property name="pincode" value="411020"></property>
+	</bean>
+
+
+
+
+
+</beans>
